@@ -1,0 +1,45 @@
+# Note: ":" must be followed with a space
+# baseurl: /blog
+# pygments: true
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+# Site settings
+title: Heartsuit's Blog
+email: nxq0108@163.com
+# description: > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# permalink: /blog/:year/:month/:day/:title
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+# twitter:  username
+# weibo:    ID
+github:   heartsuit
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+disqus_shortname: heartsuit
+
+
+# Google Analytics
+# google_analytics: UA-60830414-1
+
+
+# Build settings
+# markdown: kramdown
+sass:
+  style: compressed
+# gems:
+#   - jekyll-sitemap
